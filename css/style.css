@@ -23,17 +23,21 @@ body {
     position: absolute;
     top: -5000px;
 }
-
+.BoxLink{
+    margin: 20px 10% 20px;
+}
 .centre {
+    width: 100%;
     display: flex;
     justify-content: center;
+    position:absolute;
+    top: 280px;
 
 }
 
 
 .leftBox {
     width: 300px;
-    margin: 20px;
     background: black;
     border-radius: 10%;
     padding: 10px;
@@ -53,7 +57,6 @@ body {
 
 .rightBox {
     width: 300px;
-    margin: 20px;
     background: black;
     border-radius: 10%;
     padding: 10px;
@@ -95,7 +98,7 @@ body {
 
 .telegram {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     display: flex;
     flex-direction: row-reverse;
@@ -103,19 +106,6 @@ body {
     z-index: 7;
 }
 
-@media (min-height: 0) and (max-height: 850px) {
-    .rightBox {
-        width: 200px;
-    }
-
-    .leftBox {
-        width: 200px;
-    }
-
-    .LogoBox {
-        height: 300px;
-    }
-}
 
 @media (min-width: 0) and (max-width: 1230px) {
     .telegram {
@@ -125,10 +115,11 @@ body {
     }
 }
 
-@media (min-width: 0) and (max-width: 694px) {
+@media (min-width: 0) and (max-width: 1230px) {
     .centre {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: static;
     }
 }
