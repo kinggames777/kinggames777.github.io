@@ -22,11 +22,13 @@ body {
 .logoPrew{
     position: absolute;
     top: -5000px;
+    width:200px;
 }
 .BoxLink{
     margin: 20px 10% 20px;
 }
 .centre {
+    margin-bottom: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
